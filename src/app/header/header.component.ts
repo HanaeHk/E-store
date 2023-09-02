@@ -7,14 +7,6 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  items: MenuItem[] | undefined;
-
-    ngOnInit() {
-        this.items = [
-            { label: 'Market', routerLink:"products" },
-            { label: 'Product', routerLink:"details" },
-            { label: 'Cart', routerLink:"cart" },
-        ];
-    }
+ 
 
 }
