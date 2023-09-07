@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'E-Commerce';
+  url: string = "../assets/phone.jpg";
+    imageChange(event: any){
+        this.url = event.target.src;
+    }
 }
