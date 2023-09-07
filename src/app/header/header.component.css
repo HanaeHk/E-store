@@ -1,26 +1,23 @@
-nav {
-    background: linear-gradient(to right,rgb(127, 127, 228), rgb(109, 88, 88));
+nav{
+    background: linear-gradient(to right,red, black);
     color: aliceblue;
-      .navBar {
+    .content{
         display: flex;
-        flex-direction: row;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
-        padding: 1px 0;
-        ul  {
+        padding: 10px 0;
+        ul{
             list-style: none;
             display: flex;
             justify-content: space-between;
-            width: 20px;
+            width: 20%;
             margin: 0;
-            
-             li  {
+            li{
                 cursor: pointer;
-                font-size: 2em;
+                font-size: 22px;
                 color: aliceblue;
                 text-decoration: none;
-                 }
-        
-                }
             }
+        }
     }
+}

@@ -7,6 +7,8 @@ import { MenuItem } from 'primeng/api';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
- 
 
-}
+
+  ngOnInit() {
+            
+}}
